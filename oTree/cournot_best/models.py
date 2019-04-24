@@ -41,10 +41,11 @@ class Group(BaseGroup):
        self.total_units = sum([p.units for p in players])
        self.unit_price = Constants.total_capacity - self.total_units
        #setattr(self.prev_total_units, 5)
-       self.prev_total_units = 5
-       self.prev_total_units = self.in_round(self.round_number-1).total_units  ##### I want this to generate a variable that I can then put into the html pages
-       print(self.round_number)
-       print(self.in_round(self.round_number-1).total_units)
+       #self.prev_total_units = 5
+       #self.prev_total_units = self.in_round(self.round_number-1).total_units  ##### I want this to generate a variable that I can then put into the html pages
+       if self.round_number>1:
+           print("total units in previous round = ", self.in_round(self.round_number-1).total_units)
+           self.prev_total_units = self.in_round(self.round_number-1).total_units)
        for p in players:
            p.payoff = self.unit_price * p.units
 
@@ -56,7 +57,7 @@ class Player(BasePlayer):
     )
 
     def other_player(self):
-       print("baseplayer round number")
-       print(self.round_number)
+       #print("baseplayer round number")
+       #print(self.round_number)
        return self.get_others_in_group()[0]
 
