@@ -2,12 +2,13 @@
 {% load otree %}
 
 {% block title %}
-    Production
+    Production -- the bandit got you
 {% endblock %}
 
 {% block content %}
-    How many units will you produce (from {{ min_units }} to {{ max_units }})
-    {% formfield player.units label = "" %}
+
+    you were not able to change production this period. You produced {{ prev_units }} units again
+
 
     {% next_button %}
 

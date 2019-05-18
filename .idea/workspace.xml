@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd55939-72be-44e7-94ca-6af4b7597302" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_bandit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_shell.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qqpi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_best.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_shell.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oTree/cournot_best/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/oTree/cournot_best/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oTree/cournot_best/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/oTree/cournot_best/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide.html" beforeDir="false" afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/instructions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/pr_Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Q.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oTree/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/oTree/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,35 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oTree/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/_builtin/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="129">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -53,11 +37,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oTree/cournot_best/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#104#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_shell.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_bandit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qqpi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -65,11 +82,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oTree/cournot_best/pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="170">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="77" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qq.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Q.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -83,6 +118,15 @@
       <find>player.other</find>
       <find>other_pla</find>
       <find>get_player_by_id</find>
+      <find>prev_units</find>
+      <find>payoff</find>
+      <find>units</find>
+      <find>per_player</find>
+      <find>max_units</find>
+      <find>bandi</find>
+      <find>random</find>
+      <find>bandit_pr</find>
+      <find>prev_unit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,24 +141,31 @@
         <option value="$PROJECT_DIR$/oTree/my_simple_survey/pages.py" />
         <option value="$PROJECT_DIR$/oTree/my_cournot/templates/cournot/instructions.html" />
         <option value="$PROJECT_DIR$/oTree/my_cournot/models.py" />
-        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/instructions.html" />
         <option value="$PROJECT_DIR$/oTree/cournot/models.py" />
-        <option value="$PROJECT_DIR$/oTree/settings.py" />
         <option value="$PROJECT_DIR$/oTree/cournot/pages.py" />
         <option value="$PROJECT_DIR$/oTree/public_goods/pages.py" />
         <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_r-1.html" />
         <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/pr_Results.html" />
-        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide.html" />
-        <option value="$PROJECT_DIR$/oTree/cournot_best/pages.py" />
         <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_best.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_shell.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/instructions.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qqpi.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qq.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Q.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_shell.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide.html" />
+        <option value="$PROJECT_DIR$/oTree/settings.py" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_bandit.html" />
+        <option value="$PROJECT_DIR$/oTree/cournot_best/pages.py" />
         <option value="$PROJECT_DIR$/oTree/cournot_best/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
-    <option name="width" value="2586" />
-    <option name="height" value="1386" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1302" />
+    <option name="height" value="1370" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -138,7 +189,20 @@
               <item name="my_otree" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_otree" type="462c0819:PsiDirectoryNode" />
               <item name="oTree" type="462c0819:PsiDirectoryNode" />
+              <item name="cournot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_otree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_otree" type="462c0819:PsiDirectoryNode" />
+              <item name="oTree" type="462c0819:PsiDirectoryNode" />
               <item name="cournot_best" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_otree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_otree" type="462c0819:PsiDirectoryNode" />
+              <item name="oTree" type="462c0819:PsiDirectoryNode" />
+              <item name="cournot_best" type="462c0819:PsiDirectoryNode" />
+              <item name="_builtin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_otree" type="b2602c69:ProjectViewProjectNode" />
@@ -163,10 +227,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Epste\OneDrive\Documents\School\UCD\my_otree\oTree\cournot_best\templates\cournot_best" />
       <recent name="C:\Users\Epste\OneDrive\Documents\School\UCD\oTree\oTree\cournot_best\templates\cournot_best" />
     </key>
   </component>
@@ -193,13 +258,22 @@
       <option name="presentableId" value="Default" />
       <updated>1555385623945</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1556080043363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556080043363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1293" height="693" extended-state="0" />
+    <frame x="-7" y="-7" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.11040508" />
-      <window_info id="Structure" order="1" sideWeight="0.50177306" side_tool="true" weight="0.11040508" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49470899" weight="0.11040508" />
+      <window_info id="Structure" order="1" sideWeight="0.505291" side_tool="true" weight="0.11040508" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -208,17 +282,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2641844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.11040508" />
-      <window_info id="Structure" order="1" sideWeight="0.50177306" side_tool="true" weight="0.11040508" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49470899" weight="0.11040508" />
+      <window_info id="Structure" order="1" sideWeight="0.505291" side_tool="true" weight="0.11040508" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -228,74 +302,23 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2641844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oTree/lemon_market/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/guess_two_thirds/_builtin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/lemon_market/_builtin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/lemon_market/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/my_simple_survey/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/my_simple_survey/templates/my_simple_survey/Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/my_simple_survey/templates/my_simple_survey/MyPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oTree/my_simple_survey/pages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot/_builtin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -369,13 +392,6 @@
     <entry file="file://$PROJECT_DIR$/oTree/cournot/templates/cournot/instructions.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oTree/cournot/templates/cournot/Results.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -401,9 +417,6 @@
           <caret line="749" column="8" selection-start-line="749" selection-start-column="8" selection-end-line="749" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Introduction.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/oTree/trust_simple/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -437,13 +450,6 @@
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -504,16 +510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/pr_Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/pr_Results.html" />
     <entry file="file://$PROJECT_DIR$/oTree/vickrey_auction/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -523,10 +520,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/settings.py">
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_best.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="63" selection-start-line="62" selection-start-column="12" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_shell.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot/_builtin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/instructions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -537,37 +588,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qqpi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Qq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results_Q.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_shell.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide_bandit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Decide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oTree/cournot_best/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="170">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="77" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oTree/cournot_best/templates/cournot_best/Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oTree/cournot_best/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#104#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
         </state>
       </provider>
     </entry>

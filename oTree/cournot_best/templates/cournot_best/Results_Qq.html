@@ -16,16 +16,9 @@
         </tr>
 
         <tr>
-            <td>Total production in previous round:</td>
-            <td>{{ group.prev_total_units }} units</td>
-        </tr>
-
-
-        <tr>
             <td style="border-top-width:4px">Unit selling price:</td>
-            <td style="border-top-width:4px">{{ Constants.total_capacity }} – {{ group.total_units }} = {{ group.unit_price }}</td>
+            <td style="border-top-width:4px">{{ group.total_capacity }} – {{ group.total_units }} = {{ group.unit_price }}</td>
         </tr>
-
 
         <tr>
             <td>Your firm produced:</td>
@@ -33,12 +26,10 @@
 
         </tr>
 
-
         <tr>
             <td>Your profit:</td>
             <td>{{ player.payoff }}</td>
         </tr>
-
 
         <tr>
             <td>The other firms produced:</td>
@@ -53,15 +44,29 @@
                 <td>{{ p.payoff }} points</td>
             {% endfor %}
         </tr>
+    </table>
 
 
 
 
 
+    <p>The previous round's results are shown in the following table.</p>
+
+    <table class="table">
+        <tr>
+            <td>Total production in previous round:</td>
+            <td>{{ group.prev_total_units }} units</td>
+        </tr>
+
+        <tr>
+            <td>Individual production in previous round:</td>
+            {% for p in player.get_others_in_group %}
+                <td>{{ p.prev_units }} units</td>
+            {% endfor %}
+        </tr>
 
 
     </table>
-
     {% next_button %}
 
     {% include Constants.instructions_template %}

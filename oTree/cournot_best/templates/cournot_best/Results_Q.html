@@ -2,7 +2,7 @@
 {% load otree %}
 
 {% block title %}
-    Previous Round Results
+    Results
 {% endblock %}
 
 {% block content %}
@@ -12,19 +12,22 @@
     <table class="table">
         <tr>
             <td>Total production:</td>
-            <td>{{ group.in_round(self.round_number - 1).total_units }} units</td>
+            <td>{{ group.total_units }} units</td>
         </tr>
+
+
 
 
         <tr>
             <td style="border-top-width:4px">Unit selling price:</td>
-            <td style="border-top-width:4px">{{ Constants.total_capacity }} – {{ group.total_units }} = {{ group.unit_price }}</td>
+            <td style="border-top-width:4px">{{ group.total_capacity }} – {{ group.total_units }} = {{ group.unit_price }}</td>
         </tr>
 
 
         <tr>
             <td>Your firm produced:</td>
             <td>{{ player.units }} units</td>
+
         </tr>
 
 
@@ -47,15 +50,25 @@
                 <td>{{ p.payoff }} points</td>
             {% endfor %}
         </tr>
+    </table>
+{% endblock %}
 
+{% block title %}
+    Previous Round Results
+{% endblock %}
 
+{% block content %}
 
+    <p>The previous round's results are shown in the following table.</p>
 
-
+    <table class="table">
+        <tr>
+            <td>Total production in previous round:</td>
+            <td>{{ group.prev_total_units }} units</td>
+        </tr>
 
 
     </table>
-
     {% next_button %}
 
     {% include Constants.instructions_template %}

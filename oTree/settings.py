@@ -16,7 +16,14 @@ SESSION_CONFIGS = [
     {
         'name': 'cournot_best',
         'num_demo_participants': 3,
+        #[NOTE]# different markets are specifically designed for diferent numbers of participants
+        # m1 (Huck): 4
+        # m2 (Offerman): 3
         'app_sequence': ['cournot_best', 'payment_info'],
+        'treatment': 'Qqpi',
+        'market': 'm2',
+        'bandit': False
+
     },
 
     {
